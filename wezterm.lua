@@ -4,12 +4,12 @@ local M = {}
 M.font = "JetBrainsMono Nerd Font"
 
 M.colors = {
-  foreground = "#f8f8f8",
+  foreground = "#f2ddc2",
   background = "#1a1a1c",
 
-  cursor_bg = "#f8f8f8",
+  cursor_bg = "#f2ddc2",
   cursor_fg = "#1a1a1c",
-  cursor_border = "#f8f8f8",
+  cursor_border = "#f2ddc2",
 
   selection_fg = "#1a1a1c",
   selection_bg = "#2e2e30",
@@ -22,9 +22,9 @@ M.colors = {
     "#d7be67",
     "#f5c651",
     "#cbb15b",
-    "#b6afb6",
-    "#b3c1bc",
-    "#FDF5A7",
+    "#e7b211",
+    "#f9e198",
+    "#fdf5a7",
   },
 
   brights = {
@@ -33,9 +33,9 @@ M.colors = {
     "#f6e79d",
     "#fee4a4",
     "#d5d5dc",
-    "#e2dfe2",
-    "#e5eae9",
     "#f8f8f8",
+    "#e5eae9",
+    "#f2ddc2",
   },
 
   tab_bar = {
@@ -43,28 +43,28 @@ M.colors = {
 
     active_tab = {
       bg_color = "#1a1a1c",
-      fg_color = "#f8f8f8",
+      fg_color = "#f2ddc2",
       intensity = "Bold",
     },
 
     inactive_tab = {
       bg_color = "#1d1d1f",
-      fg_color = "#dadada",
+      fg_color = "#d4bfa4",
     },
 
     inactive_tab_hover = {
       bg_color = "#212123",
-      fg_color = "#f8f8f8",
+      fg_color = "#f2ddc2",
     },
 
     new_tab = {
       bg_color = "#1f1f21",
-      fg_color = "#dadada",
+      fg_color = "#d4bfa4",
     },
 
     new_tab_hover = {
       bg_color = "#262628",
-      fg_color = "#f8f8f8",
+      fg_color = "#f2ddc2",
     },
   },
 }

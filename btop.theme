@@ -2,25 +2,25 @@
 theme[main_bg]="#1a1a1c"
 
 # Main text color
-theme[main_fg]="#f8f8f8"
+theme[main_fg]="#f2ddc2"
 
 # Title color for boxes
-theme[title]="#b6afb6"
+theme[title]="#e7b211"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#b3c1bc"
+theme[hi_fg]="#f9e198"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#ba8d22"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#f8f8f8"
+theme[selected_fg]="#f2ddc2"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#ba8d22"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#b6afb6"
+theme[proc_misc]="#e7b211"
 
 # Box outline and divider line color
 theme[cpu_box]="#d7be67"
@@ -30,12 +30,12 @@ theme[proc_box]="#d7be67"
 theme[div_line]="#ba8d22"
 
 # Gradient for all meters and graphs
-theme[temp_start]="#b3c1bc"
+theme[temp_start]="#f9e198"
 theme[temp_mid]="#cbb15b"
 theme[temp_end]="#d7be67"
 
 
-theme[cpu_start]="#b3c1bc"
+theme[cpu_start]="#f9e198"
 theme[cpu_mid]="#cbb15b"
 theme[cpu_end]="#d7be67"
 
@@ -50,9 +50,9 @@ theme[cached_mid]="#f5c651"
 theme[cached_end]="#f5c651"
 
 
-theme[available_start]="#b3c1bc"
-theme[available_mid]="#b3c1bc"
-theme[available_end]="#b3c1bc"
+theme[available_start]="#f9e198"
+theme[available_mid]="#f9e198"
+theme[available_end]="#f9e198"
 
 
 theme[used_start]="#d7be67"
@@ -61,10 +61,10 @@ theme[used_end]="#d7be67"
 
 
 theme[download_start]="#f5c651"
-theme[download_mid]="#b3c1bc"
+theme[download_mid]="#f9e198"
 theme[download_end]="#cbb15b"
 
 
 theme[upload_start]="#f5c651"
-theme[upload_mid]="#b3c1bc"
+theme[upload_mid]="#f9e198"
 theme[upload_end]="#cbb15b"
