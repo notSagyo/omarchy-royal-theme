@@ -8,9 +8,9 @@ return {
             colors = {
                 -- Monotone shades (base00-base07)
                 base00 = "#1a1a1c", -- Default background
-                base01 = "#ba8d22", -- Lighter background (status bars)
+                base01 = "#545a58", -- Lighter background (status bars)
                 base02 = "#1a1a1c", -- Selection background
-                base03 = "#ba8d22", -- Comments, invisibles
+                base03 = "#545a58", -- Comments, invisibles
                 base04 = "#fdf5a7", -- Dark foreground
                 base05 = "#f2ddc2", -- Default foreground
                 base06 = "#f2ddc2", -- Light foreground
@@ -30,6 +30,16 @@ return {
         config = function(_, opts)
             require("aether").setup(opts)
             vim.cmd.colorscheme("aether")
+
+            local function fix_splits()
+              vim.api.nvim_set_hl(0, "WinSeparator", {
+                fg = opts.colors.base0D,
+                bg = "NONE",
+                bold = false,
+              })
+            end
+
+            vim.api.nvim_create_autocmd("ColorScheme", { callback = fix_splits })
 
             -- Enable hot reload
             require("aether.hotreload").setup()

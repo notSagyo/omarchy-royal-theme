@@ -1,2 +1,23 @@
-@define-color background #1a1a1c;
+@define-color background rgba(0, 0, 0, 0);
+@define-color waybar-bg rgba(36, 36, 38, 0.95);
 @define-color foreground #eeeccf;
+@define-color surface #636e72;
+@define-color inactive #3a3a3c;
+
+#waybar {
+  background-color: @waybar-bg;
+}
+
+tooltip {
+  background-color: @waybar-bg;
+  padding: 8px 12px;
+  border: 1px solid @foreground;
+}
+
+tooltip label {
+  color: @foreground;
+}
+
+#tray menu {
+  background-color: @waybar-bg;
+}

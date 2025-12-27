@@ -14,7 +14,7 @@ M.colors = {
   selection_fg = "#1a1a1c",
   selection_bg = "#2e2e30",
 
-  split = "#ba8d22",
+  split = "#545a58",
 
   ansi = {
     "#1a1a1c",
@@ -28,7 +28,7 @@ M.colors = {
   },
 
   brights = {
-    "#ba8d22",
+    "#545a58",
     "#f5dc89",
     "#f6e79d",
     "#fee4a4",
