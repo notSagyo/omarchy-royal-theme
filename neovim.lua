@@ -1,7 +1,7 @@
 return {
     {
         "bjarneo/aether.nvim",
-        name = "aether",
+        name = "royal",
         priority = 1000,
         opts = {
             disable_italics = false,
